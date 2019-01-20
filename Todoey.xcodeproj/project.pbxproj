@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4407E21D2164F03E00A57AEF /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4407E21B2164F03E00A57AEF /* DataModel.xcdatamodeld */; };
+		4407E240216A243100A57AEF /* CategoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4407E23F216A243100A57AEF /* CategoryTableViewController.swift */; };
 		447B7E762153CD90001D456A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447B7E752153CD90001D456A /* AppDelegate.swift */; };
 		447B7E782153CD90001D456A /* ToDoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447B7E772153CD90001D456A /* ToDoListViewController.swift */; };
 		447B7E7B2153CD90001D456A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 447B7E792153CD90001D456A /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		4407E21C2164F03E00A57AEF /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
+		4407E23F216A243100A57AEF /* CategoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTableViewController.swift; sourceTree = "<group>"; };
 		447B7E722153CD90001D456A /* Todoey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Todoey.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		447B7E752153CD90001D456A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		447B7E772153CD90001D456A /* ToDoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListViewController.swift; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 		447B7E8A215907DD001D456A /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				4407E23F216A243100A57AEF /* CategoryTableViewController.swift */,
 				447B7E772153CD90001D456A /* ToDoListViewController.swift */,
 			);
 			path = Controllers;
@@ -165,6 +168,7 @@
 				447B7E782153CD90001D456A /* ToDoListViewController.swift in Sources */,
 				4407E21D2164F03E00A57AEF /* DataModel.xcdatamodeld in Sources */,
 				447B7E762153CD90001D456A /* AppDelegate.swift in Sources */,
+				4407E240216A243100A57AEF /* CategoryTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
